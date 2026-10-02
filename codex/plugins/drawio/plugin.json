@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "drawio",
+  "version": "0.1.0",
+  "description": "Create, inspect, edit and export local draw.io diagrams in Codex using the original draw.io editor.",
+  "license": "Apache-2.0",
+  "keywords": [
+    "drawio",
+    "diagrams",
+    "codex",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "draw.io for Codex",
+        "shortDescription": "Local draw.io editor and diagram tools",
+        "defaultPrompt": [
+          "Создай диаграмму в draw.io и открой редактор рядом с чатом."
+        ]
+      }
+    }
+  }
+}
