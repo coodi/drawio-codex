@@ -1,0 +1,5 @@
+/vendor/
+/plugins/drawio/vendor/drawio/webapp/
+/dist/
+__pycache__/
+*.pyc

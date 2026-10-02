@@ -1,0 +1,40 @@
+<mxfile host="127.0.0.1" compressed="false">
+  <diagram id="page-1" name="draw.io в Codex">
+    <mxGraphModel dx="998" dy="1793" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="user" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Пользователь" vertex="1">
+          <mxGeometry height="70" width="160" x="60" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="codex" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Codex · подключено" vertex="1">
+          <mxGeometry height="70" width="160" x="320" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mcp" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Плагин draw.io&#xa;MCP-инструменты" vertex="1">
+          <mxGeometry height="70" width="160" x="580" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="file" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="Локальный файл .drawio" vertex="1">
+          <mxGeometry height="70" width="160" x="840" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="editor" parent="1" style="rounded=1;whiteSpace=wrap;html=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Редактор draw.io&#xa;в панели Codex" vertex="1">
+          <mxGeometry height="70" width="160" x="580" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" target="codex" value="запрос">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="codex" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" target="mcp" value="создать / изменить">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="mcp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" target="file" value="XML">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="mcp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" target="editor" value="открыть">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="editor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;endArrow=block;" target="file" value="ручные правки">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
