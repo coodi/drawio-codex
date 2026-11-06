@@ -2137,3 +2137,5 @@ step=Step
 tape=Tape
 trapezoid=Trapezoid
 triangle=Triangle
+
+controlProfile=Mouse controls

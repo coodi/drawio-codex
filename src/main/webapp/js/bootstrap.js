@@ -315,6 +315,7 @@ if (urlParams['dev'] == '1')
         // Layout with "ElkLayout.runWithDialog is not a function".
     }
 
+    mxscript(drawDevUrl + 'js/diagramly/ControlProfiles.js');
     mxscript(drawDevUrl + 'js/PostConfig.js');
 }
 else
@@ -331,8 +332,11 @@ else
         {
             mxscript('js/app.min.js', function()
             {
-                mxScriptsLoaded = true;
-                checkAllLoaded();
+                mxscript('js/diagramly/ControlProfiles.js', function()
+                {
+                    mxScriptsLoaded = true;
+                    checkAllLoaded();
+                });
                 
                 // Electron
                 if (mxIsElectron)
