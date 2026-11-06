@@ -49,3 +49,7 @@ Chrome 123+, Firefox 120+, Safari 17.5+, Opera 109+, Edge 123+, WebView Android 
 draw.io is a registered EU trademark (#018062448).
 
 Do not use the draw.io name or logo in ways that suggest affiliation with, endorsement by, or sponsorship by draw.io. Do not use draw.io logos for your own business, product, project, domain, or social media presence. Do not modify the draw.io logos. Use of draw.io trademarks requires prior written permission.
+
+## Optional Visio mouse controls in this fork
+
+Choose **Extras → Mouse controls → Visio** to use Ctrl+wheel zoom and Ctrl+Shift mouse navigation. Switch back to draw.io in the same menu. See [the profile guide and application comparison](docs/control-profiles.md) for gestures, source references and tests.

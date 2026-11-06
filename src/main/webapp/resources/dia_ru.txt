@@ -2043,3 +2043,5 @@ step=Шаг
 tape=Лента
 trapezoid=Трапеция
 triangle=Треугольник
+
+controlProfile=Управление мышью
